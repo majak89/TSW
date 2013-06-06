@@ -1,0 +1,94 @@
+body {
+  background-color: #eeeeee;
+}
+h1 {
+	margin: 5px 20px;
+}
+
+#plansza {
+	height: 566px;
+    width: 566px;
+	float: left;
+}
+#panel{
+	width: 250px;
+	height: 630px;
+	border: 1px solid green;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+}
+#przyciski {
+	height: 24px;
+}
+#info {
+	width: 100%;
+	height: 140px;
+	margin: 0 auto;
+	/* border-top: 1px solid green; 
+	border-bottom: 1px solid green; */
+	background: #92DD92;
+}
+
+#info > div {
+    padding: 10px;
+}
+
+#info > div.ja {
+	font-weight: bold;
+	border-top: 2px solid green; 
+	border-bottom: 2px solid green;
+}
+#info > div.ruch {
+	background: rgba(0, 100, 0, 0.3);
+}
+div.pion {
+	width: 22px;
+	height: 22px;
+	margin-right: 15px;
+	border: 2px outset #777;
+	border-radius: 50%;
+	display: inline-block;
+	
+}
+#black > .pion {
+	background: #222;
+}
+#white > .pion {
+	background: #eee;
+}
+
+#info > div > span {
+    vertical-align: top;
+}
+
+#panel > div#log {
+    height: 380px;
+    overflow: auto;
+}
+
+#entry {
+  background-color: rgb(75, 85, 75);
+  color: white;
+  width: 75%;
+}
+#msg {
+  width: 20%;
+}
+#console { 
+  width: 100%;
+  font-size: 14px;
+}
+ul, li {
+    list-style: none outside none;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+li {
+    background: none repeat scroll 0 0 #DDEFCD;
+}
+.uname {
+  font-weight: bold;
+  color: green;
+}

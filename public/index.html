@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reversi</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/skrypt.js"></script>
+  </head>  
+  <body>
+    <h1>Reversi</h1>
+	<div id="plansza"> 
+		<canvas id="plotno" width="560" height="560">
+		</canvas>
+	</div>
+	
+	<div id="panel">
+	
+		<div id="console">
+			<span>Podaj pseudonim:</span>
+			<input type="text" id="entry">
+			<input type="submit" id="msg" value="Wyslij"/>
+		</div>	
+		<div id="przyciski">
+			<input type="submit" id="start" value="Start"/>		
+		</div>
+		
+		<div id="info">
+			<div id="black">
+				<div class='pion'></div><span>Czarny: 2</span>
+			</div>
+			<div id="white">
+				<div class='pion'></div><span>Biały: 2</span>
+			</div>
+			<div id='wynik'></div><span>
+		</div>
+		
+		<div id="log">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	
+  </body>
+</html>

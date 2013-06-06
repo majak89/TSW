@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\majow_000\Studia\zaliczenie\package.json
+6 warn package.json myApp@0.0.1 No README.md file found!
+7 verbose run-script [ 'prestart', 'start', 'poststart' ]
+8 info prestart myApp@0.0.1
+9 info start myApp@0.0.1
+10 verbose unsafe-perm in lifecycle true
+11 silly exec cmd "/c" "node app.js"
+12 silly cmd,/c,node app.js,C:\Users\majow_000\Studia\zaliczenie spawning
+13 info myApp@0.0.1 Failed to exec start script
+14 error myApp@0.0.1 start: `node app.js`
+14 error `cmd "/c" "node app.js"` failed with 1
+15 error Failed at the myApp@0.0.1 start script.
+15 error This is most likely a problem with the myApp package,
+15 error not with npm itself.
+15 error Tell the author that this fails on your system:
+15 error     node app.js
+15 error You can get their info via:
+15 error     npm owner ls myApp
+15 error There is likely additional logging output above.
+16 error System Windows_NT 6.2.9200
+17 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+18 error cwd C:\Users\majow_000\Studia\zaliczenie
+19 error node -v v0.8.22
+20 error npm -v 1.2.14
+21 error code ELIFECYCLE
+22 verbose exit [ 1, true ]
